@@ -3,7 +3,7 @@
  */
 
 import { AppRegistry } from 'react-native';
-import { Signature } from './App';
+import { SignatureScreen } from './src/App';
 import { name as appName } from './app.json';
 
-AppRegistry.registerComponent(appName, () => Signature);
+AppRegistry.registerComponent(appName, () => SignatureScreen);
